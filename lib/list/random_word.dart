@@ -67,7 +67,7 @@ class RandomWordsState extends State<RandomWords> {
 
   void _pressSaved() {
     Navigator.of(context).push(new MaterialPageRoute(builder: (context) {
-      savedPage(context, _saved);
+      return savedPage(context, _saved);
     }));
   }
 }
